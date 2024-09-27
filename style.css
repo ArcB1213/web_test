@@ -128,13 +128,18 @@ nav a:hover {
   text-decoration: underline;
 }
 
-.Makoto:link {
+.subtitle1_p5r:link {
   text-decoration: none;
 }
 .Makoto:hover {
   text-decoration: underline;
 }
-.Makoto {
+
+.subtitle1_p5r span:hover {
+  text-decoration: none;
+}
+
+.subtitle1_p5r {
   background-color: rgb(44, 44, 45);
   color: rgba(246, 239, 239, 0.944);
   border: red 7px solid;
@@ -148,4 +153,30 @@ nav a:hover {
 .test1 {
   color: rgb(236, 19, 77);
   font-size: 30px;
+}
+
+.video {
+  width: 80%;
+  display: flex;
+  flex-flow: column;
+  margin-top: 30px;
+  background-color: rgb(44, 44, 45);
+  color: rgba(246, 239, 239, 0.944);
+  border: red 7px solid;
+  font-size: 40px;
+  font-weight: bold;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-bottom: 10px;
+  padding-top: 10px;
+}
+
+.video p {
+  margin-top: 10px auto;
+  margin-bottom: 10px auto;
+  justify-content: left;
+}
+
+.video video {
+  border: red 7px dashed;
 }
