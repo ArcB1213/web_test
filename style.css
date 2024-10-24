@@ -80,7 +80,8 @@ nav li :hover {
 
 nav a {
   border: rgb(236, 236, 241) solid 5px;
-  display: block;
+  display: inline-block;
+  padding: 0px 50px;
   font-weight: bold;
   color: rgba(255, 255, 255, 0.912);
   text-decoration: none;
@@ -88,7 +89,7 @@ nav a {
 
 nav a:hover {
   border: none;
-  text-decoration: underline;
+  padding: 0 20px;
   transition-duration: 200ms;
   transform: scale(1.2);
 }
