@@ -3,25 +3,28 @@
   <head>
     <meta charset="utf-8" />
     <title>注册界面</title>
-    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="style_for_signup.css" />
     <script src="script.js"></script>
   </head>
   <body>
     <div class="sign_up">
       <p>设定您的代号（用户名）及密码</p>
-      <div class="input_field">
-        <span class="input_tips"
-          ><label for="username">用户名：</label>
-          <input type="text" id="username"
-        /></span>
-        <span class="input_tips"
-          ><label for="password">密码：</label>
-          <input type="password" id="password"
-        /></span>
-      </div>
-      <div>
-        <button class="sign_up_button">注册</button>
-      </div>
+      <!-- 注册表单,只做好了外观，还没跟服务器做沟通-->
+      <form action="" method="post">
+        <ul class="input_field">
+          <li>
+            <label for="username">用户名：</label>
+            <input type="text" id="username" />
+          </li>
+          <li>
+            <label for="password">密码：</label>
+            <input type="password" id="password" />
+          </li>
+          <li>
+            <button type="submit" class="sign_up_button">注册</button>
+          </li>
+        </ul>
+      </form>
     </div>
   </body>
 </html>

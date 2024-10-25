@@ -1,0 +1,105 @@
+.sign_up {
+  font-size: 35px;
+  color: rgba(246, 239, 239, 0.944);
+  background-color: rgb(44, 44, 45);
+  border: red 15px solid;
+  border-radius: 1em;
+  /* 居中表单 */
+  margin: 0 auto;
+  width: 80%;
+  /* 显示表单的轮廓 */
+  padding: 1em;
+}
+
+.sign_up p {
+  font-size: 40px;
+  font-weight: bold;
+  color: rgba(246, 239, 239, 0.944);
+  text-align: center;
+  background-color: red;
+  height: 4vh;
+  width: 55vw;
+  clip-path: polygon(
+    15% 0%,
+    55% 10%,
+    75% 0%,
+    100% 15%,
+    85% 35%,
+    100% 70%,
+    50% 100%,
+    0% 80%,
+    5% 45%,
+    0% 20%
+  );
+  padding: 8px;
+  margin: 0 auto;
+  margin-bottom: 1em;
+}
+
+.input_field {
+  list-style: none;
+  font-weight: bold;
+  width: 60%;
+  color: rgba(246, 239, 239, 0.944);
+  background-color: rgb(243, 36, 36);
+  border: rgb(18, 18, 18) 10px inset;
+  margin: 0 auto;
+}
+
+.input_field li {
+  margin-top: 0.5em;
+}
+
+.input_field label {
+  display: inline-block;
+  text-align: right;
+  width: 30%;
+}
+
+.input_field input {
+  font-size: 20px;
+  font-weight: bold;
+  width: 60%;
+  padding: 0.5em;
+  border: 5px solid #000;
+}
+
+.input_field input:focus {
+  background-color: rgb(6, 6, 6);
+  color: rgb(255, 255, 255);
+  border: 8px solid #060606;
+  clip-path: polygon(
+    15% 0%,
+    55% 10%,
+    75% 0%,
+    100% 15%,
+    85% 35%,
+    100% 70%,
+    50% 100%,
+    0% 80%,
+    5% 45%,
+    0% 20%
+  );
+  padding: 2.8%;
+}
+
+.sign_up_button {
+  font-size: 25px;
+  font-weight: bold;
+  background-color: red;
+  color: rgb(246, 242, 242);
+  border: rgb(14, 14, 14) 5px outset;
+  padding-left: 1%;
+  padding-right: 1%;
+  padding-bottom: 0.8%;
+  text-align: center;
+  display: inline-block;
+  margin-left: 45%;
+  margin-bottom: 0.5em;
+}
+
+.click_active {
+  color: rgb(240, 9, 9);
+  background-color: rgb(4, 4, 4);
+  border: rgb(245, 238, 238) 5px inset;
+}
