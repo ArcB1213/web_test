@@ -4,6 +4,8 @@
     <meta charset="utf-8" />
     <title>注册界面</title>
     <link rel="stylesheet" href="style_for_signup.css" />
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    ;
     <script src="script.js"></script>
   </head>
   <body>
@@ -14,11 +16,11 @@
         <ul class="input_field">
           <li>
             <label for="username">用户名：</label>
-            <input type="text" id="username" />
+            <input type="text" id="username" name="username" required />
           </li>
           <li>
             <label for="password">密码：</label>
-            <input type="password" id="password" />
+            <input type="text" id="password" name="password" required />
           </li>
           <li>
             <button type="submit" class="sign_up_button">注册</button>
